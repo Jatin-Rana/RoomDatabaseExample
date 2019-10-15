@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_addUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="text"
+        android:text="Add User"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_viewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="text"
+        android:text="View Users"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btn_deleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="text"
+        android:text="Delete User"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btn_updateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:inputType="text"
+        android:text="Update User"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
